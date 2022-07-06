@@ -5,6 +5,7 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import fitnesstracker.advices.UserNotFoundException;
+import fitnesstracker.dto.AppUserDto;
 import fitnesstracker.entity.AppUser;
 import fitnesstracker.repository.AppUserRepository;
 
