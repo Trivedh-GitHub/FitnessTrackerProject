@@ -1,10 +1,25 @@
 package fitnesstracker.entity;
 
+import javax.persistence.CascadeType;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.OneToOne;
+
+@Entity
 public class AppAdmin {
+	@Id
+	private int Adminid;
 	private String name;
 	private String password;
 	private String email;
 	private long phonenumber;
+	/*
+	 * @OneToOne(cascade=CascadeType.ALL,mappedBy="appuser")
+	 * 
+	 * @JoinColumn
+	 */
+	
 	public String getName() {
 		return name;
 	}
