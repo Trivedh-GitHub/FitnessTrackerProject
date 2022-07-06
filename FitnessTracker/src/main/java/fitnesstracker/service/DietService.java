@@ -1,6 +1,7 @@
 package fitnesstracker.service;
 
 import java.util.List;
+import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -17,8 +18,8 @@ public class DietService {
 DietRepository dietrepo;
 
 public List<Diet> getDiets() {
-    List<Diet> lc = dietrepo.findAll();
-    return lc;
+    List<Diet> dietList = dietrepo.findAll();
+    return dietList;
 }
 
 public Diet addDiet(Diet d) {
@@ -36,8 +37,9 @@ public Diet updateDiet(Diet a) {
 
 }
 
-public String deleteDiet(Diet d) {
-    dietrepo.delete(d);
+public String deleteDiet(int id) {
+	Optional<Diet> diet = dietrepo.findById(id);
+			dietrepo.deleteById(id);
 
     return "string";
 
