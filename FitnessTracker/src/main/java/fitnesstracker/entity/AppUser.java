@@ -3,8 +3,10 @@ package fitnesstracker.entity;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import javax.persistence.Table;
 
 @Entity
+@Table(name="appuser")
 public class AppUser{
 	@Id
 	@GeneratedValue
