@@ -1,3 +1,4 @@
+
 package fitnesstracker.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
@@ -8,8 +9,5 @@ import fitnesstracker.entity.Diet;
 @Repository
 public interface DietRepository extends JpaRepository<Diet, Integer> {
 
-
 }
-
-
 
