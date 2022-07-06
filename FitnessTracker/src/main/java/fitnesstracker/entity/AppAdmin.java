@@ -1,6 +1,11 @@
 package fitnesstracker.entity;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
 public class AppAdmin {
+	@Id
 	private String name;
 	private String password;
 	private String email;
