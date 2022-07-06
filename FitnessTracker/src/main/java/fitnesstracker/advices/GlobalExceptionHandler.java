@@ -28,5 +28,19 @@
 	  return new
   ResponseEntity<>(errorDetails,HttpStatus.INTERNAL_SERVER_ERROR); 
   }
+  
+  @ExceptionHandler(ActivityNotFoundException.class)
+  public ResponseEntity<?>ActivityNotFoundException
+  (ActivityNotFoundException ex, WebRequest request)
+  {
+  ErrorDetails errorDetails = new ErrorDetails(LocalDateTime.now(),
+  ex.getMessage(), request.getDescription(false));
+  return new
+  ResponseEntity<>(errorDetails, HttpStatus.NOT_FOUND);
   }
+  }
+  
+  
+  
  
+  
