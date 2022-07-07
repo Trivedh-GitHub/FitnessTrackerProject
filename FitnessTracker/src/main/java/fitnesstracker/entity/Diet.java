@@ -13,7 +13,27 @@ public class Diet{
 	private String breakfast;
 	private String dinner;
 	private String snack;
+	private String dietname;
+	public String getDietname() {
+		return dietname;
+	}
+	public void setDietname(String dietname) {
+		this.dietname = dietname;
+	}
+	public Diet() {
+		super();
+// TODO Auto-generated constructor stub
+	}
+	public Diet(int id, String breakfast, String dinner, String snack, String day) {
+		super();
+		this.id = id;
+		this.breakfast = breakfast;
+		this.dinner = dinner;
+		this.snack = snack;
+		this.day = day;
+	}
 	private String day;
+	
 	public int getId() {
 		return id;
 	}
@@ -46,10 +66,13 @@ public class Diet{
 	}
 	@Override
 	public String toString() {
-		return "Diet [id=" + id + ", breakfast=" + breakfast + ", dinner=" + dinner + ", snack=" + snack + ", day="
-				+ day + "]";
+		return "Diet [id=" + id + ", breakfast=" + breakfast + ", dinner=" + dinner + ", snack=" + snack + ", dietname="
+				+ dietname + ", day=" + day + "]";
 	}
-}
+	
+	
+	}
+
 	
  
 	

@@ -28,31 +28,31 @@ public class ActivityController {
 	}
 
 	@PostMapping("addactivity")
-	public Activity addActivity(@RequestBody Activity a) {
-		Activity act1 = activityservice.addActivity(a);
-		return act1;
+	public String addActivity(@RequestBody Activity activity) throws Throwable {
+		 activityservice.addActivity(activity);
+		return "post";
 	}
 
 	@PutMapping("updateactivity")
-	public Activity updateActivity(@RequestBody Activity a) {
-		Activity act2 = activityservice.updateActivity(a);
-		return act2;
+	public String updateActivity(@RequestBody Activity activity) throws Throwable {
+		activityservice.updateActivity(activity);
+		return "put";
 	}
 
 	@DeleteMapping("deleteactivity")
-	public String deleteActivity(@RequestBody Activity a) {
-		activityservice.deleteActivity(a);
+	public String deleteActivity(@RequestBody Activity activity)  {
+		activityservice.deleteActivity(activity);
 		return "String";
 	}
 
 	@GetMapping("getactivitybyname/{activityName}")
-	public Activity getActivityByActivityName(@PathVariable String activityName) {
-		Activity act4 = activityservice.getActivityByActivityName(activityName);
-		return act4;
+	public Activity getActivityByActivityName(@PathVariable String activityName) throws Throwable {
+		Activity act5= activityservice.getActivityByActivityName(activityName);
+		return act5;
 	}
 
 	@GetMapping("getactivitybyduration/{durationInMinutes}")
-	public Activity getActivityBydurationinminutesSorted(@PathVariable int durationInMinutes) {
+	public Activity getActivityBydurationinminutesSorted(@PathVariable int durationInMinutes) throws Throwable {
 		Activity act5 = activityservice.getActivityBydurationInMinutes(durationInMinutes);
 		return act5;
 	}
