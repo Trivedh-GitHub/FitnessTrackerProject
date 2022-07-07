@@ -5,6 +5,7 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import fitnesstracker.dto.AppUserDto;
 import fitnesstracker.entity.Activity;
 import fitnesstracker.entity.AppUser;
 import fitnesstracker.entity.Diet;
@@ -23,7 +24,7 @@ public class ReportService {
 	
 	
 	public List<AppUser> getUsers() {
-	List<AppUser> lc = userrepo.findAll();
+	List<AppUser> lc = userrepo.findAll () ;
 	return lc;
 	}
 	

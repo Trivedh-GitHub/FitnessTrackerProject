@@ -13,6 +13,9 @@ public class Report {
 	@OneToOne 
 	@JoinColumn(name ="activity_name")
 	private Activity activity;
+	@OneToOne
+	@JoinColumn(name = "diet_name")
+	private Diet diet;
 	
 	public int getReportName() {
 		return reportName;

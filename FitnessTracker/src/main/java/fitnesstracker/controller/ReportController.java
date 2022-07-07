@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import fitnesstracker.dto.AppUserDto;
 import fitnesstracker.entity.Activity;
 import fitnesstracker.entity.AppUser;
 import fitnesstracker.entity.Diet;
@@ -26,8 +27,8 @@ public class ReportController {
 	DietService dietservice;
 	
 	@GetMapping(path = "getuser")
-    public List<AppUser> getuser() {
-        List<AppUser> lc = appuserservice.getUsers();
+    public List<AppUserDto> getuser() {
+        List<AppUserDto> lc = appuserservice.getUsers();
         return lc;
     }
 	
