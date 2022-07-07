@@ -6,8 +6,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import fitnesstracker.advices.ActivityNotFoundException;
+import fitnesstracker.dto.ActivityDto;
 import fitnesstracker.entity.Activity;
 import fitnesstracker.repository.ActivityRepository;
+import fitnesstracker.utils.Continue;
+import fitnesstracker.utils.Converter;
 
     @Service
     public class ActivityService {
@@ -15,31 +18,36 @@ import fitnesstracker.repository.ActivityRepository;
 	@Autowired
 	ActivityRepository activityrepo;
 
-	public List<Activity> getActivities() {
-		List<Activity> lc = activityrepo.findAll();
+	public List<ActivityDto> getActivities() {
+		List<ActivityDto> lc =Continue.continueToDto(activityrepo.findAll());
 		return lc;
 	}
 
-	public Activity addActivity(Activity activity) {
-		Activity act1 = activityrepo.save(activity);
-
-		return act1;
-
-	}
-
-	public Activity   updateActivity(Activity activity) throws Exception, ActivityNotFoundException  {
+	public ActivityDto addActivity(ActivityDto activity) throws Exception, ActivityNotFoundException {
 		if(activity==null) {
-			throw new ActivityNotFoundException("activity does not exist");
+			throw new ActivityNotFoundException("activity does notexception");
 		}
 		else {
-		activityrepo.save(activity);
+		activityrepo.save(Continue.continueToEntity(activity));
+
 		return activity;
 		}
 
 	}
 
-	public String deleteActivity(Activity activity) {
-		activityrepo.delete(activity);
+	public ActivityDto   updateActivity(ActivityDto activity) throws Exception, ActivityNotFoundException  {
+		if(activity==null) {
+			throw new ActivityNotFoundException("activity does not exist");
+		}
+		else {
+		activityrepo.save(Continue.continueToEntity(activity));
+		return activity;
+		}
+
+	}
+
+	public String deleteActivity(ActivityDto activity) {
+		activityrepo.deleteAll();
 
 		return "string";
 

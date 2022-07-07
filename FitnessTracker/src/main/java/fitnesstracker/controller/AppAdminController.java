@@ -12,9 +12,10 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-
+import fitnesstracker.dto.AppUserDto;
 import fitnesstracker.entity.AppUser;
 import fitnesstracker.service.AppUserService;
+import fitnesstracker.utils.Converter;
 
 @RestController
 @RequestMapping("adminuser")
@@ -26,27 +27,27 @@ public class AppAdminController {
 		AppUserService userservice;
 
 		@GetMapping(path = "getadminuser")
-		public List<AppUser> getuser() {
-			List<AppUser> lc = userservice.getUsers();
+		public List<AppUserDto> getuser() {
+			List<AppUserDto> lc = userservice.getUsers();
 			return lc;
 		}
 
 		@PostMapping("addadminuser")
 		public String addUser(@RequestBody AppUser a) throws Throwable {
-			userservice.addUser(a);
+			userservice.addUser(Converter.convertToDto(a));
 			return "post";
 		}
 
 		@PutMapping("updateadminUser")
 		public String updateUser(@RequestBody AppUser a) throws Throwable {
-			userservice.updateUser(a);
+			userservice.updateUser(Converter.convertToDto(a));
 			return "put";
 
 		}
 
 		@DeleteMapping("deleteUser")
 		public String deleteUser(@RequestBody AppUser a) throws Throwable {
-			userservice.deleteUser(a);
+			userservice.deleteUser(Converter.convertToDto(a));
 			return "deleted";
 		}
 

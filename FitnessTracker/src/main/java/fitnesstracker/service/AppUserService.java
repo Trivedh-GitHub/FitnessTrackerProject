@@ -8,6 +8,7 @@ import fitnesstracker.advices.UserNotFoundException;
 import fitnesstracker.dto.AppUserDto;
 import fitnesstracker.entity.AppUser;
 import fitnesstracker.repository.AppUserRepository;
+import fitnesstracker.utils.Converter;
 
 @Service
 public class AppUserService {
@@ -15,52 +16,52 @@ public class AppUserService {
 	@Autowired
 	AppUserRepository userrepo;
 
-	public List<AppUser> getUsers() {
-		List<AppUser> lc = userrepo.findAll();
+	public List<AppUserDto> getUsers() {
+		List<AppUserDto> lc = Converter.convertToDto(userrepo.findAll() );
 		return lc;
 	}
 
-	public String addUser(AppUser a) throws Exception {
+	public String addUser(AppUserDto a) throws Exception {
 		if (a == null) {
 			throw new UserNotFoundException("user does not exist");
 		} else {
-			userrepo.save(a);
+			userrepo.save(Converter.convertToEntity(a));
 			return "post";
 		}
 	}
 
-	public String updateUser(AppUser a) throws Exception {
+	public String updateUser(AppUserDto a) throws Exception {
 		if (a == null) {
 			throw new UserNotFoundException("user does not exist");
 		} else {
-			userrepo.save(a);
+			userrepo.save(Converter.convertToEntity(a));
 			return "put";
 		}
 	}
 
-	public String deleteUser(AppUser a) throws Exception {
+	public String deleteUser(AppUserDto a) throws Exception {
 		if (a == null) {
 			throw new UserNotFoundException("user does not exit");
 		} else {
-			userrepo.delete(a);
+			userrepo.delete(Converter.convertToEntity(a));
 			return "delete";
 		}
 	}
 
-	public AppUser getByUserId(int userId) throws Exception {
+	public AppUserDto getByUserId(int userId) throws Exception {
 		AppUser a4 = userrepo.getByUserId(userId);
 		if (a4 == null) {
 			throw new UserNotFoundException("user does not exist");
 		} else {
-			return a4;
+			return Converter.convertToDto(a4);
 		}
 	}
 
-	public AppUser getUserByemail(String email) throws Exception {
+	public AppUserDto getUserByemail(String email) throws Exception {
 		AppUser a5 = userrepo.findByUserEmail(email);
 		if (a5 == null) {
 			throw new UserNotFoundException("user does not exist");
 		}
-		return a5;
+		return Converter.convertToDto(a5);
 	}
 }

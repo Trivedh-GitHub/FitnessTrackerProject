@@ -18,30 +18,32 @@ import fitnesstracker.service.DietService;
 @RestController
 @RequestMapping("diet")
 public class DietController {
-    @Autowired
-    DietService dietservice;
+	@Autowired
+	DietService dietservice;
 
-    @GetMapping(path = "getdiets")
-    public List<Diet> getDiets() {
-        List<Diet> dietList = dietservice.getDiets();
-        return dietList;
-    }
+	@GetMapping(path = "getdiets")
+	public List<Diet> getDiets() {
+		List<Diet> lc = dietservice.getDiets();
+		return lc;
+	}
 
-    @PostMapping("adddiet")
-    public Diet addDiet(@RequestBody Diet d) {
-        Diet act1 = dietservice.addDiet(d);
-        return act1;
-    }
+	@PostMapping("adddiet")
+	public String addDiet(@RequestBody Diet diet) throws Throwable {
+		dietservice.addDiet(diet);
+		return "post";
+	}
 
-    @PutMapping("updatediet")
-    public Diet updateDiet(@RequestBody Diet d) {
-        Diet diet2 = dietservice.updateDiet(d);
-        return diet2;
-    }
+	@PutMapping("updatediet")
+	public String updateDiet(@RequestBody Diet diet) throws Throwable {
+		dietservice.updateDiet(diet);
+		return "put";
+	}
 
-    @DeleteMapping("deletediet{id}")
-    public String deleteDiet(@RequestBody int id) {
-    	return dietservice.deleteDiet(id);
-        
-    }
-    }
+	@DeleteMapping("deletediet")
+	public String deleteDiet(@RequestBody Diet diet) {
+		dietservice.deleteDiet(diet);
+		return "String";
+	}
+
+	
+	}

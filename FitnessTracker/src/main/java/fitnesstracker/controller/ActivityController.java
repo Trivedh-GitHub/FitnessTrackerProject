@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import fitnesstracker.dto.ActivityDto;
 import fitnesstracker.entity.Activity;
 import fitnesstracker.service.ActivityService;
 
@@ -22,25 +23,25 @@ public class ActivityController {
 	ActivityService activityservice;
 
 	@GetMapping(path = "getactivities")
-	public List<Activity> getActivities() {
-		List<Activity> lc = activityservice.getActivities();
+	public List<ActivityDto> getActivities() {
+		List<ActivityDto> lc = activityservice.getActivities();
 		return lc;
 	}
 
 	@PostMapping("addactivity")
-	public Activity addActivity(@RequestBody Activity activity) throws Throwable {
+	public ActivityDto addActivity(@RequestBody ActivityDto activity) throws Throwable {
 		 activityservice.addActivity(activity);
 		return activity;
 	}
 
 	@PutMapping("updateactivity")
-	public Activity updateActivity(@RequestBody Activity activity) throws Throwable {
+	public ActivityDto updateActivity(@RequestBody ActivityDto activity) throws Throwable {
 		activityservice.updateActivity(activity);
 		return activity;
 	}
 
 	@DeleteMapping("deleteactivity")
-	public String deleteActivity(@RequestBody Activity activity)  {
+	public String deleteActivity(@RequestBody ActivityDto activity)  {
 		activityservice.deleteActivity(activity);
 		return "String";
 	}
