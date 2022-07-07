@@ -1,13 +1,9 @@
-package fitnesstracker.entity;
+package fitnesstracker.dto;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.JoinColumn;
-import javax.persistence.ManyToOne;
+import org.springframework.stereotype.Component;
 
-@Entity
-public class Activity {
-	@Id
+@Component
+public class ActivityDto {
 	private int activityNo;
 	private String activityName;
 	private int durationInMinutes;
@@ -44,3 +40,4 @@ public class Activity {
 	}
 
 }
+

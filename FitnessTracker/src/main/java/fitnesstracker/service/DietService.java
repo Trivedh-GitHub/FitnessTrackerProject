@@ -51,8 +51,8 @@ public class DietService {
 	}
 
 	public Diet getDietByDietName(String dietName) {
-		Diet diet3 = dietrepo.findBydietName(dietName);
-		return null;
+		Diet diet3 = dietrepo.findByDietName(dietName);
+		return diet3;
 	}
 
 	}
