@@ -28,15 +28,15 @@ public class ActivityController {
 	}
 
 	@PostMapping("addactivity")
-	public String addActivity(@RequestBody Activity activity) throws Throwable {
+	public Activity addActivity(@RequestBody Activity activity) throws Throwable {
 		 activityservice.addActivity(activity);
-		return "post";
+		return activity;
 	}
 
 	@PutMapping("updateactivity")
-	public String updateActivity(@RequestBody Activity activity) throws Throwable {
+	public Activity updateActivity(@RequestBody Activity activity) throws Throwable {
 		activityservice.updateActivity(activity);
-		return "put";
+		return activity;
 	}
 
 	@DeleteMapping("deleteactivity")
