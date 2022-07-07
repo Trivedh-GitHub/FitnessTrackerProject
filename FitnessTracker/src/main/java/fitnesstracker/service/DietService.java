@@ -6,6 +6,9 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import fitnesstracker.advices.ActivityNotFoundException;
+import fitnesstracker.advices.DietNotFoundException;
+import fitnesstracker.entity.Activity;
 import fitnesstracker.entity.Diet;
 import fitnesstracker.repository.DietRepository;
 
@@ -35,11 +38,22 @@ public class DietService {
 
 	}
 
-	public String deleteDiet(int id) {
-		Optional<Diet> diet = dietrepo.findById(id);
-		dietrepo.deleteById(id);
+	public Diet updateDiets(Diet diet) throws Exception  {
+		if (diet == null) {
+			throw new DietNotFoundException("diet does not exist");
+		} else {
+			dietrepo.save(diet);
+			return diet;
+		}
+	}
+
+	public String deleteDiet(Diet diet) {
+		dietrepo.delete(diet);
 
 		return "string";
 
 	}
-}
+
+	
+		}
+
