@@ -28,5 +28,18 @@
 	  return new
   ResponseEntity<>(errorDetails,HttpStatus.INTERNAL_SERVER_ERROR); 
   }
+  @ExceptionHandler(AdminNotFoundException.class)
+  public ResponseEntity<?>resourceNotFoundException
+  (AdminNotFoundException ex, WebRequest request)
+  {
+  ErrorDetails errorDetails = new ErrorDetails(LocalDateTime.now(),
+  ex.getMessage(), request.getDescription(false));
+  return new
+  ResponseEntity<>(errorDetails, HttpStatus.NOT_FOUND);
   }
+  
+  
+
+  }
+  
  

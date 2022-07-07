@@ -2,12 +2,17 @@ package fitnesstracker.entity;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.OneToOne;
 
 @Entity
 public class Report {
 	@Id
 	private int reportId;
 	private int reportName;
+	@OneToOne 
+	@JoinColumn(name ="activity_name")
+	private Activity activity;
 	
 	public int getReportName() {
 		return reportName;
