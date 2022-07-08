@@ -15,6 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 import fitnesstracker.advices.UserNotFoundException;
 import fitnesstracker.dto.AppUserDto;
 import fitnesstracker.entity.AppUser;
+import fitnesstracker.service.IAppUserService;
 import fitnesstracker.serviceimpl.AppUserService;
 
 @RestController
@@ -23,7 +24,7 @@ import fitnesstracker.serviceimpl.AppUserService;
 public class AppUserController {
 
 	@Autowired
-	AppUserService userservice;
+	IAppUserService userservice;
 
 	@GetMapping(path = "getuser")
 	public List<AppUserDto> getuser() {

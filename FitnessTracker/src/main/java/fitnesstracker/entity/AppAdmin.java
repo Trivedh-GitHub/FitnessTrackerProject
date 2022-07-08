@@ -1,5 +1,4 @@
 package fitnesstracker.entity;
-
 import javax.persistence.CascadeType;
 import javax.persistence.Entity;
 import javax.persistence.Id;
@@ -55,6 +54,6 @@ public class AppAdmin {
 	public String toString() {
 		return "appAdmin [name=" + name + ", password=" + password + ", email=" + email + ", phonenumber=" + phonenumber
 				+ "]";
-	}
 
+}
 }
