@@ -3,22 +3,35 @@ package fitnesstracker.entity;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import javax.persistence.OneToMany;
 import javax.persistence.Table;
+import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.NotEmpty;
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Pattern;
+import javax.validation.constraints.Size;
 
 @Entity
-@Table(name="appuser")
+/* @Table(name="appuser") */
 public class AppUser{
 	@Id
 	@GeneratedValue
+	@NotNull
 	private int userId;
+	@NotBlank(message = "name is mandatory")
 	private String username;
 	private String password;
+	@NotBlank(message = "Email is mandatory")
 	private String email;
+	@NotNull
 	private int age;
 	private String gender;
 	private int height;
 	private int weight;
 	private String address;
+    @NotEmpty
+	@Size(min = 10, max = 10)
+    @Pattern(regexp = "[0-9]")
 	private long phNo;
 	public int getUserId() {
 		return userId;

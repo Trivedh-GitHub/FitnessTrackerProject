@@ -12,6 +12,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import fitnesstracker.advices.ActivityNotFoundException;
+import fitnesstracker.dto.ActivityDto;
 import fitnesstracker.entity.Activity;
 import fitnesstracker.service.ActivityService;
 
@@ -22,39 +24,39 @@ public class ActivityController {
 	ActivityService activityservice;
 
 	@GetMapping(path = "getactivities")
-	public List<Activity> getActivities() {
-		List<Activity> lc = activityservice.getActivities();
+	public List<ActivityDto> getActivities() throws ActivityNotFoundException {
+		List<ActivityDto> lc = activityservice.getActivities();
 		return lc;
 	}
 
 	@PostMapping("addactivity")
-	public String addActivity(@RequestBody Activity activity) throws Throwable {
+	public ActivityDto addActivity(@RequestBody ActivityDto activity) throws Throwable {
 		 activityservice.addActivity(activity);
-		return "post";
+		return activity;
 	}
 
 	@PutMapping("updateactivity")
-	public String updateActivity(@RequestBody Activity activity) throws Throwable {
+	public ActivityDto updateActivity(@RequestBody ActivityDto activity) throws Throwable {
 		activityservice.updateActivity(activity);
-		return "put";
+		return activity;
 	}
 
 	@DeleteMapping("deleteactivity")
-	public String deleteActivity(@RequestBody Activity activity)  {
+	public String deleteActivity(@RequestBody ActivityDto activity)  {
 		activityservice.deleteActivity(activity);
 		return "String";
 	}
 
 	@GetMapping("getactivitybyname/{activityName}")
 	public Activity getActivityByActivityName(@PathVariable String activityName) throws Throwable {
-		Activity act5= activityservice.getActivityByActivityName(activityName);
-		return act5;
+		Activity activity= activityservice.getActivityByActivityName(activityName);
+		return activity;
 	}
 
 	@GetMapping("getactivitybyduration/{durationInMinutes}")
 	public Activity getActivityBydurationinminutesSorted(@PathVariable int durationInMinutes) throws Throwable {
-		Activity act5 = activityservice.getActivityBydurationInMinutes(durationInMinutes);
-		return act5;
+		Activity activity = activityservice.getActivityBydurationInMinutes(durationInMinutes);
+		return activity;
 	}
 }
 
