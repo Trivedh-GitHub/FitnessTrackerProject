@@ -8,10 +8,11 @@ import fitnesstracker.advices.UserNotFoundException;
 import fitnesstracker.dto.AppUserDto;
 import fitnesstracker.entity.AppUser;
 import fitnesstracker.repository.AppUserRepository;
+import fitnesstracker.service.IAppUserService;
 import fitnesstracker.utils.Converter;
 
 @Service
-public class AppUserService {
+public class AppUserService implements IAppUserService {
 
 	@Autowired
 	AppUserRepository userrepo;
