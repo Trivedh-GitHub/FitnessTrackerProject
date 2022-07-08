@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import fitnesstracker.entity.Diet;
-import fitnesstracker.service.DietService;
+import fitnesstracker.serviceimpl.DietService;
 
 
 

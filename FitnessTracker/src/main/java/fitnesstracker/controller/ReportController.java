@@ -13,10 +13,10 @@ import fitnesstracker.dto.AppUserDto;
 import fitnesstracker.entity.Activity;
 import fitnesstracker.entity.AppUser;
 import fitnesstracker.entity.Diet;
-import fitnesstracker.service.ActivityService;
-import fitnesstracker.service.AppAdminService;
-import fitnesstracker.service.AppUserService;
-import fitnesstracker.service.DietService;
+import fitnesstracker.serviceimpl.ActivityService;
+import fitnesstracker.serviceimpl.AppAdminService;
+import fitnesstracker.serviceimpl.AppUserService;
+import fitnesstracker.serviceimpl.DietService;
 
 @RestController
 @RequestMapping("report")
