@@ -3,15 +3,19 @@ package fitnesstracker.entity;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.NotNull;
 
 @Entity
 public class Diet{
 @Id
 @GeneratedValue
+@NotNull
 		private int id;
 			private String breakfast;
 			private String dinner;
 			private String snack;
+			@NotBlank(message = "name is mandatory")
 			private String dietname;
 			public String getDietname() {
 				return dietname;

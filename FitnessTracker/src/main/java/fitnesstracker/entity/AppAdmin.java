@@ -5,13 +5,20 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.OneToOne;
+import javax.validation.constraints.Email;
+import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.NotNull;
 
 @Entity
 public class AppAdmin {
 	@Id
+	@NotNull
 	private int Adminid;
+	@NotBlank(message = "name is mandatory")
 	private String name;
 	private String password;
+    @NotBlank(message = "Email is mandatory")
+    @Email
 	private String email;
 	private long phonenumber;
 	/*

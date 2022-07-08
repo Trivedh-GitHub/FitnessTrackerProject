@@ -4,11 +4,15 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.OneToOne;
+import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.NotNull;
 
 @Entity
 public class Report {
 	@Id
+	@NotNull
 	private int reportId;
+	@NotBlank(message = "name is mandatory")
 	private int reportName;
 	@OneToOne 
 	@JoinColumn(name ="activity_name")

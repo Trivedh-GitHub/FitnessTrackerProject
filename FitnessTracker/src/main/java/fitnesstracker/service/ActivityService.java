@@ -17,15 +17,18 @@ import fitnesstracker.utils.Converter;
 
 	@Autowired
 	ActivityRepository activityrepo;
-
-	public List<ActivityDto> getActivities() {
+	public List<ActivityDto> getActivities() throws ActivityNotFoundException {
 		List<ActivityDto> lc =Continue.continueToDto(activityrepo.findAll());
+		if(lc.isEmpty()) {
+			throw new ActivityNotFoundException("activity does not exist");
+		}
+		else {
 		return lc;
+		}
 	}
-
 	public ActivityDto addActivity(ActivityDto activity) throws Exception, ActivityNotFoundException {
-		if(activity==null) {
-			throw new ActivityNotFoundException("activity does notexception");
+		if( activity==null) {
+			throw new ActivityNotFoundException("activity does not exit");
 		}
 		else {
 		activityrepo.save(Continue.continueToEntity(activity));
@@ -34,7 +37,6 @@ import fitnesstracker.utils.Converter;
 		}
 
 	}
-
 	public ActivityDto   updateActivity(ActivityDto activity) throws Exception, ActivityNotFoundException  {
 		if(activity==null) {
 			throw new ActivityNotFoundException("activity does not exist");
@@ -45,14 +47,11 @@ import fitnesstracker.utils.Converter;
 		}
 
 	}
-
 	public String deleteActivity(ActivityDto activity) {
 		activityrepo.deleteAll();
 
 		return "string";
-
 	}
-
 	public Activity getActivityByActivityName(String activityName) throws Exception, ActivityNotFoundException {
 		Activity act3 = activityrepo.findByactivityName(activityName);
 		if(activityName==null) {
@@ -62,7 +61,6 @@ import fitnesstracker.utils.Converter;
 		return act3;
 		}
 	}
-
 	public Activity getActivityBydurationInMinutes(int durationinminutes) throws Exception {
 		Activity act4 = activityrepo.getActivityBydurationInMinutes(durationinminutes);
 		return act4;

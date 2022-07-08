@@ -4,12 +4,17 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
+import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.NotNull;
 
 @Entity
 public class Activity {
 	@Id
+	@NotNull
 	private int activityNo;
+	@NotBlank(message = "name is mandatory")
 	private String activityName;
+	@NotNull
 	private int durationInMinutes;
 	private String frequency;
 	
