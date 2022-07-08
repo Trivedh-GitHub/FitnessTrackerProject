@@ -13,7 +13,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import fitnesstracker.entity.Diet;
-import fitnesstracker.service.DietService;
+import fitnesstracker.serviceimpl.DietService;
+
+
 
 @RestController
 @RequestMapping("diet")
@@ -29,7 +31,7 @@ public class DietController {
 
 	@PostMapping("adddiet")
 	public String addDiet(@RequestBody Diet diet) throws Throwable {
-		dietservice.addDiet(diet);
+		 dietservice.addDiet(diet);
 		return "post";
 	}
 
@@ -40,10 +42,14 @@ public class DietController {
 	}
 
 	@DeleteMapping("deletediet")
-	public String deleteDiet(@RequestBody Diet diet) {
+	public String deleteDiet(@RequestBody Diet diet)  {
 		dietservice.deleteDiet(diet);
 		return "String";
 	}
 
-	
+	@GetMapping("getdietbyname/{dietName}")
+	public Diet getDietByDietName(@PathVariable String dietName) throws Throwable {
+		Diet diet5= dietservice.getDietByDietName(dietName);
+		return diet5;
 	}
+}

@@ -10,5 +10,6 @@ public class FitnessTrackerApplication {
 		SpringApplication.run(FitnessTrackerApplication.class, args);
 		System.out.println("Connect to DataBase");
 	}
+	
 
 }

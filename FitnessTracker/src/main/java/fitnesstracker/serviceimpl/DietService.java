@@ -1,14 +1,10 @@
-package fitnesstracker.service;
+package fitnesstracker.serviceimpl;
 
 import java.util.List;
-import java.util.Optional;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import fitnesstracker.advices.ActivityNotFoundException;
 import fitnesstracker.advices.DietNotFoundException;
-import fitnesstracker.entity.Activity;
 import fitnesstracker.entity.Diet;
 import fitnesstracker.repository.DietRepository;
 
@@ -54,6 +50,10 @@ public class DietService {
 
 	}
 
-	
-		}
+	public Diet getDietByDietName(String dietName) {
+		Diet diet3 = dietrepo.findByDietName(dietName);
+		return diet3;
+	}
+
+	}
 

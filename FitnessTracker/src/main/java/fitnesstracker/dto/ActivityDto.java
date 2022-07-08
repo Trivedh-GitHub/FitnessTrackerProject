@@ -1,20 +1,11 @@
-package fitnesstracker.entity;
+package fitnesstracker.dto;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.JoinColumn;
-import javax.persistence.ManyToOne;
-import javax.validation.constraints.NotBlank;
-import javax.validation.constraints.NotNull;
+import org.springframework.stereotype.Component;
 
-@Entity
-public class Activity {
-	@Id
-	@NotNull
+@Component
+public class ActivityDto {
 	private int activityNo;
-	@NotBlank(message = "name is mandatory")
 	private String activityName;
-	@NotNull
 	private int durationInMinutes;
 	private String frequency;
 	
@@ -47,5 +38,7 @@ public class Activity {
 		return "Activity [activityNo=" + activityNo + ", activityName=" + activityName + ", durationInMinutes="
 				+ durationInMinutes + ", frequency=" + frequency + "]";
 	}
+	
 
 }
+
