@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import fitnesstracker.advices.ActivityNotFoundException;
 import fitnesstracker.dto.ActivityDto;
 import fitnesstracker.dto.AppUserDto;
 import fitnesstracker.entity.Activity;
@@ -34,7 +35,7 @@ public class ReportController {
     }
 	
 	@GetMapping(path = "getactivities")
-    public List<ActivityDto> getActivities() {
+    public List<ActivityDto> getActivities() throws ActivityNotFoundException {
         List<ActivityDto> lc = activityservice.getActivities();
         return lc;
     }

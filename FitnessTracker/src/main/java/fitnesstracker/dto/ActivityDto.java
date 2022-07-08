@@ -38,6 +38,7 @@ public class ActivityDto {
 		return "Activity [activityNo=" + activityNo + ", activityName=" + activityName + ", durationInMinutes="
 				+ durationInMinutes + ", frequency=" + frequency + "]";
 	}
+	
 
 }
 
