@@ -13,6 +13,8 @@ import fitnesstracker.dto.AppUserDto;
 import fitnesstracker.entity.Activity;
 import fitnesstracker.entity.AppUser;
 import fitnesstracker.entity.Diet;
+import fitnesstracker.service.IActivityService;
+import fitnesstracker.service.IAppUserService;
 import fitnesstracker.serviceimpl.ActivityService;
 import fitnesstracker.serviceimpl.AppAdminService;
 import fitnesstracker.serviceimpl.AppUserService;
@@ -22,9 +24,9 @@ import fitnesstracker.serviceimpl.DietService;
 @RequestMapping("report")
 public class ReportController {
 	@Autowired
-	AppUserService appuserservice;
+	IAppUserService appuserservice;
 	@Autowired
-	ActivityService activityservice;
+	IActivityService activityservice;
 	@Autowired
 	DietService dietservice;
 	
