@@ -25,7 +25,7 @@ public class ReportService {
 	
 	
 	public List<AppUser> getUsers() throws ReportNotFoundException {
-	List<AppUser> lc = userrepo.findAll () ;
+	List<AppUser> lc = userrepo.findAll ();
 	if (lc.isEmpty()) {
 		throw new ReportNotFoundException("Report Not Found ");
 	}
