@@ -15,13 +15,14 @@ import org.springframework.web.bind.annotation.RestController;
 import fitnesstracker.advices.ActivityNotFoundException;
 import fitnesstracker.dto.ActivityDto;
 import fitnesstracker.entity.Activity;
-import fitnesstracker.service.ActivityService;
+import fitnesstracker.service.IActivityService;
+import fitnesstracker.serviceimpl.ActivityService;
 
 @RestController
 @RequestMapping("activity")
 public class ActivityController {
 	@Autowired
-	ActivityService activityservice;
+	IActivityService activityservice;
 
 	@GetMapping(path = "getactivities")
 	public List<ActivityDto> getActivities() throws ActivityNotFoundException {

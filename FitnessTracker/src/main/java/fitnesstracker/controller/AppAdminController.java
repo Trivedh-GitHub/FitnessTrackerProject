@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import fitnesstracker.dto.AppUserDto;
 import fitnesstracker.entity.AppUser;
-import fitnesstracker.service.AppUserService;
+import fitnesstracker.serviceimpl.AppUserService;
 import fitnesstracker.utils.Converter;
 
 @RestController

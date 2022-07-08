@@ -1,4 +1,4 @@
-package fitnesstracker.service;
+package fitnesstracker.serviceimpl;
 
 import java.util.List;
 
