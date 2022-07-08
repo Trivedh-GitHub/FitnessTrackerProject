@@ -1,0 +1,503 @@
+08-Jul-2022 18:39:10 INFO - HV000001: Hibernate Validator 6.2.3.Final
+08-Jul-2022 18:39:11 INFO - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+08-Jul-2022 18:39:11 INFO - Finished Spring Data repository scanning in 53 ms. Found 5 JPA repository interfaces.
+08-Jul-2022 18:39:12 INFO - Tomcat initialized with port(s): 8090 (http)
+08-Jul-2022 18:39:12 INFO - Initializing ProtocolHandler ["http-nio-8090"]
+08-Jul-2022 18:39:12 INFO - Starting service [Tomcat]
+08-Jul-2022 18:39:12 INFO - Starting Servlet engine: [Apache Tomcat/9.0.64]
+08-Jul-2022 18:39:12 INFO - Initializing Spring embedded WebApplicationContext
+08-Jul-2022 18:39:12 INFO - Root WebApplicationContext: initialization completed in 1907 ms
+08-Jul-2022 18:39:12 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+08-Jul-2022 18:39:12 INFO - HHH000412: Hibernate ORM core version 5.6.9.Final
+08-Jul-2022 18:39:12 INFO - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+08-Jul-2022 18:39:12 INFO - HikariPool-1 - Starting...
+08-Jul-2022 18:39:12 INFO - HikariPool-1 - Start completed.
+08-Jul-2022 18:39:12 INFO - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+08-Jul-2022 18:39:13 INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+08-Jul-2022 18:39:13 INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+08-Jul-2022 18:39:14 WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+08-Jul-2022 18:39:14 INFO - Starting ProtocolHandler ["http-nio-8090"]
+08-Jul-2022 18:39:14 INFO - Tomcat started on port(s): 8090 (http) with context path ''
+08-Jul-2022 18:39:43 INFO - Application shutdown requested.
+08-Jul-2022 18:39:43 INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+08-Jul-2022 18:39:43 INFO - HikariPool-1 - Shutdown initiated...
+08-Jul-2022 18:39:43 INFO - HikariPool-1 - Shutdown completed.
+08-Jul-2022 18:39:45 INFO - HV000001: Hibernate Validator 6.2.3.Final
+08-Jul-2022 18:39:46 INFO - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+08-Jul-2022 18:39:46 INFO - Finished Spring Data repository scanning in 41 ms. Found 5 JPA repository interfaces.
+08-Jul-2022 18:39:46 INFO - Tomcat initialized with port(s): 8090 (http)
+08-Jul-2022 18:39:46 INFO - Initializing ProtocolHandler ["http-nio-8090"]
+08-Jul-2022 18:39:46 INFO - Starting service [Tomcat]
+08-Jul-2022 18:39:46 INFO - Starting Servlet engine: [Apache Tomcat/9.0.64]
+08-Jul-2022 18:39:47 INFO - Initializing Spring embedded WebApplicationContext
+08-Jul-2022 18:39:47 INFO - Root WebApplicationContext: initialization completed in 1247 ms
+08-Jul-2022 18:39:47 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+08-Jul-2022 18:39:47 INFO - HHH000412: Hibernate ORM core version 5.6.9.Final
+08-Jul-2022 18:39:47 INFO - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+08-Jul-2022 18:39:47 INFO - HikariPool-1 - Starting...
+08-Jul-2022 18:39:47 INFO - HikariPool-1 - Start completed.
+08-Jul-2022 18:39:47 INFO - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+08-Jul-2022 18:39:48 INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+08-Jul-2022 18:39:48 INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+08-Jul-2022 18:39:48 WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+08-Jul-2022 18:39:49 INFO - Starting ProtocolHandler ["http-nio-8090"]
+08-Jul-2022 18:39:49 INFO - Tomcat started on port(s): 8090 (http) with context path ''
+08-Jul-2022 18:40:23 INFO - Application shutdown requested.
+08-Jul-2022 18:40:23 INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+08-Jul-2022 18:40:23 INFO - HikariPool-1 - Shutdown initiated...
+08-Jul-2022 18:40:23 INFO - HikariPool-1 - Shutdown completed.
+08-Jul-2022 18:40:25 INFO - HV000001: Hibernate Validator 6.2.3.Final
+08-Jul-2022 18:40:26 INFO - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+08-Jul-2022 18:40:26 INFO - Finished Spring Data repository scanning in 42 ms. Found 5 JPA repository interfaces.
+08-Jul-2022 18:40:27 INFO - Tomcat initialized with port(s): 8090 (http)
+08-Jul-2022 18:40:27 INFO - Initializing ProtocolHandler ["http-nio-8090"]
+08-Jul-2022 18:40:27 INFO - Starting service [Tomcat]
+08-Jul-2022 18:40:27 INFO - Starting Servlet engine: [Apache Tomcat/9.0.64]
+08-Jul-2022 18:40:27 INFO - Initializing Spring embedded WebApplicationContext
+08-Jul-2022 18:40:27 INFO - Root WebApplicationContext: initialization completed in 1342 ms
+08-Jul-2022 18:40:27 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+08-Jul-2022 18:40:27 INFO - HHH000412: Hibernate ORM core version 5.6.9.Final
+08-Jul-2022 18:40:27 INFO - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+08-Jul-2022 18:40:27 INFO - HikariPool-1 - Starting...
+08-Jul-2022 18:40:27 INFO - HikariPool-1 - Start completed.
+08-Jul-2022 18:40:27 INFO - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+08-Jul-2022 18:40:28 INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+08-Jul-2022 18:40:28 INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+08-Jul-2022 18:40:28 WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+08-Jul-2022 18:40:29 INFO - Starting ProtocolHandler ["http-nio-8090"]
+08-Jul-2022 18:40:29 INFO - Tomcat started on port(s): 8090 (http) with context path ''
+08-Jul-2022 18:40:58 INFO - Application shutdown requested.
+08-Jul-2022 18:40:58 INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+08-Jul-2022 18:40:58 INFO - HikariPool-1 - Shutdown initiated...
+08-Jul-2022 18:40:58 INFO - HikariPool-1 - Shutdown completed.
+08-Jul-2022 18:41:00 INFO - HV000001: Hibernate Validator 6.2.3.Final
+08-Jul-2022 18:41:01 INFO - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+08-Jul-2022 18:41:01 INFO - Finished Spring Data repository scanning in 49 ms. Found 5 JPA repository interfaces.
+08-Jul-2022 18:41:02 INFO - Tomcat initialized with port(s): 8090 (http)
+08-Jul-2022 18:41:02 INFO - Initializing ProtocolHandler ["http-nio-8090"]
+08-Jul-2022 18:41:02 INFO - Starting service [Tomcat]
+08-Jul-2022 18:41:02 INFO - Starting Servlet engine: [Apache Tomcat/9.0.64]
+08-Jul-2022 18:41:02 INFO - Initializing Spring embedded WebApplicationContext
+08-Jul-2022 18:41:02 INFO - Root WebApplicationContext: initialization completed in 1499 ms
+08-Jul-2022 18:41:02 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+08-Jul-2022 18:41:02 INFO - HHH000412: Hibernate ORM core version 5.6.9.Final
+08-Jul-2022 18:41:02 INFO - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+08-Jul-2022 18:41:02 INFO - HikariPool-1 - Starting...
+08-Jul-2022 18:41:03 INFO - HikariPool-1 - Start completed.
+08-Jul-2022 18:41:03 INFO - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+08-Jul-2022 18:41:03 INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+08-Jul-2022 18:41:03 INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+08-Jul-2022 18:41:04 WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+08-Jul-2022 18:41:04 INFO - Starting ProtocolHandler ["http-nio-8090"]
+08-Jul-2022 18:41:04 INFO - Tomcat started on port(s): 8090 (http) with context path ''
+08-Jul-2022 18:41:39 INFO - Application shutdown requested.
+08-Jul-2022 18:41:39 INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+08-Jul-2022 18:41:39 INFO - HikariPool-1 - Shutdown initiated...
+08-Jul-2022 18:41:39 INFO - HikariPool-1 - Shutdown completed.
+08-Jul-2022 18:41:41 INFO - HV000001: Hibernate Validator 6.2.3.Final
+08-Jul-2022 18:41:41 INFO - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+08-Jul-2022 18:41:42 INFO - Finished Spring Data repository scanning in 55 ms. Found 5 JPA repository interfaces.
+08-Jul-2022 18:41:42 INFO - Tomcat initialized with port(s): 8090 (http)
+08-Jul-2022 18:41:42 INFO - Initializing ProtocolHandler ["http-nio-8090"]
+08-Jul-2022 18:41:42 INFO - Starting service [Tomcat]
+08-Jul-2022 18:41:42 INFO - Starting Servlet engine: [Apache Tomcat/9.0.64]
+08-Jul-2022 18:41:42 INFO - Initializing Spring embedded WebApplicationContext
+08-Jul-2022 18:41:42 INFO - Root WebApplicationContext: initialization completed in 1441 ms
+08-Jul-2022 18:41:42 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+08-Jul-2022 18:41:42 INFO - HHH000412: Hibernate ORM core version 5.6.9.Final
+08-Jul-2022 18:41:42 INFO - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+08-Jul-2022 18:41:43 INFO - HikariPool-1 - Starting...
+08-Jul-2022 18:41:43 INFO - HikariPool-1 - Start completed.
+08-Jul-2022 18:41:43 INFO - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+08-Jul-2022 18:41:44 INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+08-Jul-2022 18:41:44 INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+08-Jul-2022 18:41:44 WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+08-Jul-2022 18:41:45 INFO - Starting ProtocolHandler ["http-nio-8090"]
+08-Jul-2022 18:41:45 INFO - Tomcat started on port(s): 8090 (http) with context path ''
+08-Jul-2022 18:42:53 INFO - HV000001: Hibernate Validator 6.2.3.Final
+08-Jul-2022 18:42:54 INFO - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+08-Jul-2022 18:42:54 INFO - Finished Spring Data repository scanning in 48 ms. Found 5 JPA repository interfaces.
+08-Jul-2022 18:42:54 INFO - Tomcat initialized with port(s): 8090 (http)
+08-Jul-2022 18:42:54 INFO - Initializing ProtocolHandler ["http-nio-8090"]
+08-Jul-2022 18:42:54 INFO - Starting service [Tomcat]
+08-Jul-2022 18:42:54 INFO - Starting Servlet engine: [Apache Tomcat/9.0.64]
+08-Jul-2022 18:42:54 INFO - Initializing Spring embedded WebApplicationContext
+08-Jul-2022 18:42:54 INFO - Root WebApplicationContext: initialization completed in 1378 ms
+08-Jul-2022 18:42:54 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+08-Jul-2022 18:42:54 INFO - HHH000412: Hibernate ORM core version 5.6.9.Final
+08-Jul-2022 18:42:54 INFO - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+08-Jul-2022 18:42:55 INFO - HikariPool-1 - Starting...
+08-Jul-2022 18:42:55 INFO - HikariPool-1 - Start completed.
+08-Jul-2022 18:42:55 INFO - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+08-Jul-2022 18:42:55 INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+08-Jul-2022 18:42:55 INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+08-Jul-2022 18:42:56 WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+08-Jul-2022 18:42:56 INFO - Starting ProtocolHandler ["http-nio-8090"]
+08-Jul-2022 18:42:56 WARN - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8090 is already in use
+08-Jul-2022 18:42:56 INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+08-Jul-2022 18:42:56 INFO - HikariPool-1 - Shutdown initiated...
+08-Jul-2022 18:42:56 INFO - HikariPool-1 - Shutdown completed.
+08-Jul-2022 18:42:56 INFO - Pausing ProtocolHandler ["http-nio-8090"]
+08-Jul-2022 18:42:56 INFO - Stopping service [Tomcat]
+08-Jul-2022 18:42:56 INFO - Stopping ProtocolHandler ["http-nio-8090"]
+08-Jul-2022 18:42:56 INFO - Destroying ProtocolHandler ["http-nio-8090"]
+08-Jul-2022 18:42:56 INFO - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+08-Jul-2022 18:42:56 ERROR - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8090 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8090 or configure this application to listen on another port.
+
+08-Jul-2022 18:58:26 INFO - Application shutdown requested.
+08-Jul-2022 18:58:27 INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+08-Jul-2022 18:58:27 INFO - HikariPool-1 - Shutdown initiated...
+08-Jul-2022 18:58:27 INFO - HikariPool-1 - Shutdown completed.
+08-Jul-2022 19:04:23 INFO - HV000001: Hibernate Validator 6.2.3.Final
+08-Jul-2022 19:04:24 INFO - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+08-Jul-2022 19:04:24 INFO - Finished Spring Data repository scanning in 50 ms. Found 5 JPA repository interfaces.
+08-Jul-2022 19:04:25 INFO - Tomcat initialized with port(s): 8090 (http)
+08-Jul-2022 19:04:25 INFO - Initializing ProtocolHandler ["http-nio-8090"]
+08-Jul-2022 19:04:25 INFO - Starting service [Tomcat]
+08-Jul-2022 19:04:25 INFO - Starting Servlet engine: [Apache Tomcat/9.0.64]
+08-Jul-2022 19:04:25 INFO - Initializing Spring embedded WebApplicationContext
+08-Jul-2022 19:04:25 INFO - Root WebApplicationContext: initialization completed in 1617 ms
+08-Jul-2022 19:04:25 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+08-Jul-2022 19:04:25 INFO - HHH000412: Hibernate ORM core version 5.6.9.Final
+08-Jul-2022 19:04:26 INFO - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+08-Jul-2022 19:04:26 INFO - HikariPool-1 - Starting...
+08-Jul-2022 19:04:27 ERROR - HikariPool-1 - Exception during pool initialization.
+org.postgresql.util.PSQLException: FATAL: password authentication failed for user "postgres"
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:646) ~[postgresql-42.3.6.jar:42.3.6]
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:180) ~[postgresql-42.3.6.jar:42.3.6]
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:235) ~[postgresql-42.3.6.jar:42.3.6]
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49) ~[postgresql-42.3.6.jar:42.3.6]
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:223) ~[postgresql-42.3.6.jar:42.3.6]
+	at org.postgresql.Driver.makeConnection(Driver.java:402) ~[postgresql-42.3.6.jar:42.3.6]
+	at org.postgresql.Driver.connect(Driver.java:261) ~[postgresql-42.3.6.jar:42.3.6]
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138) ~[HikariCP-4.0.3.jar:?]
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:364) ~[HikariCP-4.0.3.jar:?]
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206) ~[HikariCP-4.0.3.jar:?]
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:476) ~[HikariCP-4.0.3.jar:?]
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561) ~[HikariCP-4.0.3.jar:?]
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115) ~[HikariCP-4.0.3.jar:?]
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112) ~[HikariCP-4.0.3.jar:?]
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:181) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:68) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:101) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:237) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
+	at org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.injectServices(DefaultIdentifierGeneratorFactory.java:175) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.injectDependencies(AbstractServiceRegistryImpl.java:286) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:243) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:173) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:127) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1460) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1494) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58) ~[spring-orm-5.3.21.jar:5.3.21]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365) ~[spring-orm-5.3.21.jar:5.3.21]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-5.3.21.jar:5.3.21]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-5.3.21.jar:5.3.21]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341) ~[spring-orm-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154) ~[spring-context-5.3.21.jar:5.3.21]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908) ~[spring-context-5.3.21.jar:5.3.21]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.21.jar:5.3.21]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147) ~[spring-boot-2.7.1.jar:2.7.1]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734) ~[spring-boot-2.7.1.jar:2.7.1]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408) ~[spring-boot-2.7.1.jar:2.7.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308) ~[spring-boot-2.7.1.jar:2.7.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306) ~[spring-boot-2.7.1.jar:2.7.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295) ~[spring-boot-2.7.1.jar:2.7.1]
+	at fitnesstracker.FitnessTrackerApplication.main(FitnessTrackerApplication.java:17) ~[classes/:?]
+08-Jul-2022 19:04:27 WARN - HHH000342: Could not obtain connection to query metadata
+org.postgresql.util.PSQLException: FATAL: password authentication failed for user "postgres"
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:646) ~[postgresql-42.3.6.jar:42.3.6]
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:180) ~[postgresql-42.3.6.jar:42.3.6]
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:235) ~[postgresql-42.3.6.jar:42.3.6]
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49) ~[postgresql-42.3.6.jar:42.3.6]
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:223) ~[postgresql-42.3.6.jar:42.3.6]
+	at org.postgresql.Driver.makeConnection(Driver.java:402) ~[postgresql-42.3.6.jar:42.3.6]
+	at org.postgresql.Driver.connect(Driver.java:261) ~[postgresql-42.3.6.jar:42.3.6]
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138) ~[HikariCP-4.0.3.jar:?]
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:364) ~[HikariCP-4.0.3.jar:?]
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206) ~[HikariCP-4.0.3.jar:?]
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:476) ~[HikariCP-4.0.3.jar:?]
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561) ~[HikariCP-4.0.3.jar:?]
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115) ~[HikariCP-4.0.3.jar:?]
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112) ~[HikariCP-4.0.3.jar:?]
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:181) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:68) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:101) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:237) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
+	at org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.injectServices(DefaultIdentifierGeneratorFactory.java:175) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.injectDependencies(AbstractServiceRegistryImpl.java:286) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:243) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:173) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:127) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1460) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1494) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58) ~[spring-orm-5.3.21.jar:5.3.21]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365) ~[spring-orm-5.3.21.jar:5.3.21]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-5.3.21.jar:5.3.21]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-5.3.21.jar:5.3.21]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341) ~[spring-orm-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154) ~[spring-context-5.3.21.jar:5.3.21]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908) ~[spring-context-5.3.21.jar:5.3.21]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.21.jar:5.3.21]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147) ~[spring-boot-2.7.1.jar:2.7.1]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734) ~[spring-boot-2.7.1.jar:2.7.1]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408) ~[spring-boot-2.7.1.jar:2.7.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308) ~[spring-boot-2.7.1.jar:2.7.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306) ~[spring-boot-2.7.1.jar:2.7.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295) ~[spring-boot-2.7.1.jar:2.7.1]
+	at fitnesstracker.FitnessTrackerApplication.main(FitnessTrackerApplication.java:17) ~[classes/:?]
+08-Jul-2022 19:04:27 ERROR - Failed to initialize JPA EntityManagerFactory: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+08-Jul-2022 19:04:27 WARN - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+08-Jul-2022 19:04:27 INFO - Stopping service [Tomcat]
+08-Jul-2022 19:04:27 INFO - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+08-Jul-2022 19:04:27 ERROR - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154) ~[spring-context-5.3.21.jar:5.3.21]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908) ~[spring-context-5.3.21.jar:5.3.21]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.21.jar:5.3.21]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147) ~[spring-boot-2.7.1.jar:2.7.1]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734) ~[spring-boot-2.7.1.jar:2.7.1]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408) ~[spring-boot-2.7.1.jar:2.7.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308) ~[spring-boot-2.7.1.jar:2.7.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306) ~[spring-boot-2.7.1.jar:2.7.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295) ~[spring-boot-2.7.1.jar:2.7.1]
+	at fitnesstracker.FitnessTrackerApplication.main(FitnessTrackerApplication.java:17) ~[classes/:?]
+Caused by: org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:275) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:237) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
+	at org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.injectServices(DefaultIdentifierGeneratorFactory.java:175) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.injectDependencies(AbstractServiceRegistryImpl.java:286) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:243) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:173) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:127) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1460) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1494) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58) ~[spring-orm-5.3.21.jar:5.3.21]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365) ~[spring-orm-5.3.21.jar:5.3.21]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-5.3.21.jar:5.3.21]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-5.3.21.jar:5.3.21]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341) ~[spring-orm-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800) ~[spring-beans-5.3.21.jar:5.3.21]
+	... 16 more
+Caused by: org.hibernate.HibernateException: Access to DialectResolutionInfo cannot be null when 'hibernate.dialect' not set
+	at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.determineDialect(DialectFactoryImpl.java:100) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
+	at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.buildDialect(DialectFactoryImpl.java:54) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:138) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:101) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:237) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
+	at org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.injectServices(DefaultIdentifierGeneratorFactory.java:175) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.injectDependencies(AbstractServiceRegistryImpl.java:286) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:243) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:173) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:127) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1460) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1494) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58) ~[spring-orm-5.3.21.jar:5.3.21]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365) ~[spring-orm-5.3.21.jar:5.3.21]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-5.3.21.jar:5.3.21]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-5.3.21.jar:5.3.21]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341) ~[spring-orm-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800) ~[spring-beans-5.3.21.jar:5.3.21]
+	... 16 more
+08-Jul-2022 19:06:36 INFO - HV000001: Hibernate Validator 6.2.3.Final
+08-Jul-2022 19:06:37 INFO - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+08-Jul-2022 19:06:37 INFO - Finished Spring Data repository scanning in 74 ms. Found 5 JPA repository interfaces.
+08-Jul-2022 19:06:38 INFO - Tomcat initialized with port(s): 9090 (http)
+08-Jul-2022 19:06:38 INFO - Initializing ProtocolHandler ["http-nio-9090"]
+08-Jul-2022 19:06:38 INFO - Starting service [Tomcat]
+08-Jul-2022 19:06:38 INFO - Starting Servlet engine: [Apache Tomcat/9.0.64]
+08-Jul-2022 19:06:38 INFO - Initializing Spring embedded WebApplicationContext
+08-Jul-2022 19:06:38 INFO - Root WebApplicationContext: initialization completed in 2110 ms
+08-Jul-2022 19:06:38 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+08-Jul-2022 19:06:38 INFO - HHH000412: Hibernate ORM core version 5.6.9.Final
+08-Jul-2022 19:06:38 INFO - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+08-Jul-2022 19:06:39 INFO - HikariPool-1 - Starting...
+08-Jul-2022 19:06:39 INFO - HikariPool-1 - Start completed.
+08-Jul-2022 19:06:39 INFO - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+08-Jul-2022 19:06:39 INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+08-Jul-2022 19:06:39 INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+08-Jul-2022 19:06:40 WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+08-Jul-2022 19:06:41 INFO - Starting ProtocolHandler ["http-nio-9090"]
+08-Jul-2022 19:06:41 INFO - Tomcat started on port(s): 9090 (http) with context path ''
+08-Jul-2022 19:10:48 INFO - Application shutdown requested.
+08-Jul-2022 19:10:48 INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+08-Jul-2022 19:10:48 INFO - HikariPool-1 - Shutdown initiated...
+08-Jul-2022 19:10:48 INFO - HikariPool-1 - Shutdown completed.
+08-Jul-2022 19:10:50 INFO - HV000001: Hibernate Validator 6.2.3.Final
+08-Jul-2022 19:10:50 INFO - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+08-Jul-2022 19:10:50 INFO - Finished Spring Data repository scanning in 39 ms. Found 5 JPA repository interfaces.
+08-Jul-2022 19:10:51 INFO - Tomcat initialized with port(s): 9090 (http)
+08-Jul-2022 19:10:51 INFO - Initializing ProtocolHandler ["http-nio-9090"]
+08-Jul-2022 19:10:51 INFO - Starting service [Tomcat]
+08-Jul-2022 19:10:51 INFO - Starting Servlet engine: [Apache Tomcat/9.0.64]
+08-Jul-2022 19:10:51 INFO - Initializing Spring embedded WebApplicationContext
+08-Jul-2022 19:10:51 INFO - Root WebApplicationContext: initialization completed in 1336 ms
+08-Jul-2022 19:10:51 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+08-Jul-2022 19:10:51 INFO - HHH000412: Hibernate ORM core version 5.6.9.Final
+08-Jul-2022 19:10:51 INFO - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+08-Jul-2022 19:10:51 INFO - HikariPool-1 - Starting...
+08-Jul-2022 19:10:51 INFO - HikariPool-1 - Start completed.
+08-Jul-2022 19:10:52 INFO - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+08-Jul-2022 19:10:52 INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+08-Jul-2022 19:10:52 INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+08-Jul-2022 19:10:53 WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+08-Jul-2022 19:10:53 INFO - Starting ProtocolHandler ["http-nio-9090"]
+08-Jul-2022 19:10:53 INFO - Tomcat started on port(s): 9090 (http) with context path ''
+08-Jul-2022 19:14:45 INFO - Application shutdown requested.
+08-Jul-2022 19:14:45 INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+08-Jul-2022 19:14:45 INFO - HikariPool-1 - Shutdown initiated...
+08-Jul-2022 19:14:45 INFO - HikariPool-1 - Shutdown completed.
+08-Jul-2022 19:14:47 INFO - HV000001: Hibernate Validator 6.2.3.Final
+08-Jul-2022 19:14:48 INFO - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+08-Jul-2022 19:14:48 INFO - Finished Spring Data repository scanning in 50 ms. Found 5 JPA repository interfaces.
+08-Jul-2022 19:14:49 INFO - Tomcat initialized with port(s): 9090 (http)
+08-Jul-2022 19:14:49 INFO - Initializing ProtocolHandler ["http-nio-9090"]
+08-Jul-2022 19:14:49 INFO - Starting service [Tomcat]
+08-Jul-2022 19:14:49 INFO - Starting Servlet engine: [Apache Tomcat/9.0.64]
+08-Jul-2022 19:14:49 INFO - Initializing Spring embedded WebApplicationContext
+08-Jul-2022 19:14:49 INFO - Root WebApplicationContext: initialization completed in 1599 ms
+08-Jul-2022 19:14:49 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+08-Jul-2022 19:14:49 INFO - HHH000412: Hibernate ORM core version 5.6.9.Final
+08-Jul-2022 19:14:49 INFO - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+08-Jul-2022 19:14:49 INFO - HikariPool-1 - Starting...
+08-Jul-2022 19:14:50 INFO - HikariPool-1 - Start completed.
+08-Jul-2022 19:14:50 INFO - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+08-Jul-2022 19:14:50 INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+08-Jul-2022 19:14:50 INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+08-Jul-2022 19:14:51 WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+08-Jul-2022 19:14:51 INFO - Starting ProtocolHandler ["http-nio-9090"]
+08-Jul-2022 19:14:51 INFO - Tomcat started on port(s): 9090 (http) with context path ''
+08-Jul-2022 19:15:46 INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
+08-Jul-2022 19:15:46 INFO - Initializing Servlet 'dispatcherServlet'
+08-Jul-2022 19:15:46 INFO - Completed initialization in 10 ms
+08-Jul-2022 19:42:40 INFO - Application shutdown requested.
+08-Jul-2022 19:42:40 INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+08-Jul-2022 19:42:40 INFO - HikariPool-1 - Shutdown initiated...
+08-Jul-2022 19:42:40 INFO - HikariPool-1 - Shutdown completed.
+08-Jul-2022 19:42:42 INFO - HV000001: Hibernate Validator 6.2.3.Final
+08-Jul-2022 19:42:43 INFO - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+08-Jul-2022 19:42:43 INFO - Finished Spring Data repository scanning in 46 ms. Found 5 JPA repository interfaces.
+08-Jul-2022 19:42:43 INFO - Tomcat initialized with port(s): 9090 (http)
+08-Jul-2022 19:42:43 INFO - Initializing ProtocolHandler ["http-nio-9090"]
+08-Jul-2022 19:42:43 INFO - Starting service [Tomcat]
+08-Jul-2022 19:42:43 INFO - Starting Servlet engine: [Apache Tomcat/9.0.64]
+08-Jul-2022 19:42:43 INFO - Initializing Spring embedded WebApplicationContext
+08-Jul-2022 19:42:43 INFO - Root WebApplicationContext: initialization completed in 1514 ms
+08-Jul-2022 19:42:43 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+08-Jul-2022 19:42:44 INFO - HHH000412: Hibernate ORM core version 5.6.9.Final
+08-Jul-2022 19:42:44 INFO - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+08-Jul-2022 19:42:44 INFO - HikariPool-1 - Starting...
+08-Jul-2022 19:42:44 INFO - HikariPool-1 - Start completed.
+08-Jul-2022 19:42:44 INFO - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+08-Jul-2022 19:42:45 INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+08-Jul-2022 19:42:45 INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+08-Jul-2022 19:42:45 WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+08-Jul-2022 19:42:46 INFO - Starting ProtocolHandler ["http-nio-9090"]
+08-Jul-2022 19:42:46 INFO - Tomcat started on port(s): 9090 (http) with context path ''
+08-Jul-2022 19:45:11 INFO - Application shutdown requested.
+08-Jul-2022 19:45:11 INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+08-Jul-2022 19:45:11 INFO - HikariPool-1 - Shutdown initiated...
+08-Jul-2022 19:45:11 INFO - HikariPool-1 - Shutdown completed.
+08-Jul-2022 19:45:13 INFO - HV000001: Hibernate Validator 6.2.3.Final
+08-Jul-2022 19:45:14 INFO - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+08-Jul-2022 19:45:14 INFO - Finished Spring Data repository scanning in 40 ms. Found 5 JPA repository interfaces.
+08-Jul-2022 19:45:14 INFO - Tomcat initialized with port(s): 9090 (http)
+08-Jul-2022 19:45:14 INFO - Initializing ProtocolHandler ["http-nio-9090"]
+08-Jul-2022 19:45:14 INFO - Starting service [Tomcat]
+08-Jul-2022 19:45:14 INFO - Starting Servlet engine: [Apache Tomcat/9.0.64]
+08-Jul-2022 19:45:14 INFO - Initializing Spring embedded WebApplicationContext
+08-Jul-2022 19:45:14 INFO - Root WebApplicationContext: initialization completed in 1393 ms
+08-Jul-2022 19:45:14 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+08-Jul-2022 19:45:14 INFO - HHH000412: Hibernate ORM core version 5.6.9.Final
+08-Jul-2022 19:45:15 INFO - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+08-Jul-2022 19:45:15 INFO - HikariPool-1 - Starting...
+08-Jul-2022 19:45:15 INFO - HikariPool-1 - Start completed.
+08-Jul-2022 19:45:15 INFO - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+08-Jul-2022 19:45:16 INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+08-Jul-2022 19:45:16 INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+08-Jul-2022 19:45:16 WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+08-Jul-2022 19:45:17 INFO - Starting ProtocolHandler ["http-nio-9090"]
+08-Jul-2022 19:45:17 INFO - Tomcat started on port(s): 9090 (http) with context path ''
+08-Jul-2022 19:46:04 INFO - Application shutdown requested.
+08-Jul-2022 19:46:04 INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+08-Jul-2022 19:46:04 INFO - HikariPool-1 - Shutdown initiated...
+08-Jul-2022 19:46:04 INFO - HikariPool-1 - Shutdown completed.
+08-Jul-2022 19:46:06 INFO - HV000001: Hibernate Validator 6.2.3.Final
+08-Jul-2022 19:46:07 INFO - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+08-Jul-2022 19:46:07 INFO - Finished Spring Data repository scanning in 47 ms. Found 5 JPA repository interfaces.
+08-Jul-2022 19:46:08 INFO - Tomcat initialized with port(s): 9090 (http)
+08-Jul-2022 19:46:08 INFO - Initializing ProtocolHandler ["http-nio-9090"]
+08-Jul-2022 19:46:08 INFO - Starting service [Tomcat]
+08-Jul-2022 19:46:08 INFO - Starting Servlet engine: [Apache Tomcat/9.0.64]
+08-Jul-2022 19:46:08 INFO - Initializing Spring embedded WebApplicationContext
+08-Jul-2022 19:46:08 INFO - Root WebApplicationContext: initialization completed in 1476 ms
+08-Jul-2022 19:46:08 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+08-Jul-2022 19:46:08 INFO - HHH000412: Hibernate ORM core version 5.6.9.Final
+08-Jul-2022 19:46:08 INFO - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+08-Jul-2022 19:46:08 INFO - HikariPool-1 - Starting...
+08-Jul-2022 19:46:09 INFO - HikariPool-1 - Start completed.
+08-Jul-2022 19:46:09 INFO - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+08-Jul-2022 19:46:09 INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+08-Jul-2022 19:46:09 INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+08-Jul-2022 19:46:10 WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+08-Jul-2022 19:46:11 INFO - Starting ProtocolHandler ["http-nio-9090"]
+08-Jul-2022 19:46:11 INFO - Tomcat started on port(s): 9090 (http) with context path ''
+08-Jul-2022 19:46:35 INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
+08-Jul-2022 19:46:35 INFO - Initializing Servlet 'dispatcherServlet'
+08-Jul-2022 19:46:35 INFO - Completed initialization in 1 ms

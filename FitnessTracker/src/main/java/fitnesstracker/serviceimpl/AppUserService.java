@@ -34,7 +34,17 @@ public class AppUserService implements IAppUserService {
 	public String updateUser(AppUserDto a) throws Exception {
 		if (a == null) {
 			throw new UserNotFoundException("user does not exist");
-		} else {
+		} else
+		{
+			AppUser app = Converter.convertToEntity(a);
+			int id = a.getUserId();
+			AppUser user = userrepo.findById(id).orElseThrow();
+			user.setAddress(app.getAddress());
+			user.setAge(app.getAge());
+			user.setEmail(app.getEmail());
+			user.setPhNo(app.getPhNo());
+			user.setHeight(app.getHeight());
+			user.setWeight(app.getWeight());
 			userrepo.save(Converter.convertToEntity(a));
 			return "put";
 		}
