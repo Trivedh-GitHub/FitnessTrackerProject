@@ -2,6 +2,8 @@ package fitnesstracker.controller;
 
 import java.util.List;
 
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -16,11 +18,12 @@ import fitnesstracker.advices.ActivityNotFoundException;
 import fitnesstracker.dto.ActivityDto;
 import fitnesstracker.entity.Activity;
 import fitnesstracker.service.IActivityService;
-import fitnesstracker.serviceimpl.ActivityService;
+
 
 @RestController
 @RequestMapping("activity")
 public class ActivityController {
+	Log logger=LogFactory.getLog(ActivityController.class);
 	@Autowired
 	IActivityService activityservice;
 
