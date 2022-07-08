@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import fitnesstracker.advices.UserNotFoundException;
+import fitnesstracker.dto.AppUserDto;
 import fitnesstracker.entity.AppUser;
 import fitnesstracker.service.AppUserService;
 
@@ -25,39 +26,39 @@ public class AppUserController {
 	AppUserService userservice;
 
 	@GetMapping(path = "getuser")
-	public List<AppUser> getuser() {
-		List<AppUser> lc = userservice.getUsers();
+	public List<AppUserDto> getuser() {
+		List<AppUserDto> lc = userservice.getUsers();
 		return lc;
 	}
 
 	@PostMapping("adduser")
-	public String addUser(@RequestBody AppUser a) throws Throwable {
+	public String addUser(@RequestBody AppUserDto a) throws Throwable {
 		userservice.addUser(a);
 		return "post";
 	}
 
 	@PutMapping("updateUser")
-	public String updateUser(@RequestBody AppUser a) throws Throwable {
+	public String updateUser(@RequestBody AppUserDto a) throws Throwable {
 		userservice.updateUser(a);
 		return "put";
 
 	}
 
 	@DeleteMapping("deleteUser")
-	public String deleteUser(@RequestBody AppUser a) throws Throwable {
+	public String deleteUser(@RequestBody AppUserDto a) throws Throwable {
 		userservice.deleteUser(a);
 		return "deleted";
 	}
 
 	@GetMapping("getuserbyid/{userId}")
-	public AppUser getUserByUserId(@PathVariable int userId) throws Throwable {
-		AppUser a4 = userservice.getByUserId(userId);
+	public AppUserDto getUserByUserId(@PathVariable int userId) throws Throwable {
+		AppUserDto a4 = userservice.getByUserId(userId);
 		return a4;
 	}
 
 	@GetMapping("getuserbyemail/{email}")
-	public AppUser getUserByUseremail(@PathVariable String email) throws Throwable {
-		AppUser a5 = userservice.getUserByemail(email);
+	public AppUserDto getUserByUseremail(@PathVariable String email) throws Throwable {
+		AppUserDto a5 = userservice.getUserByemail(email);
 		return a5;
 	}
 

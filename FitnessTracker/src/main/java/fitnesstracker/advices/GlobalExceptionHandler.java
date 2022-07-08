@@ -1,7 +1,5 @@
 package fitnesstracker.advices;
-
 import java.time.LocalDateTime;
-
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ExceptionHandler;
@@ -29,5 +27,14 @@ public class GlobalExceptionHandler {
 				request.getDescription(false));
 		return new ResponseEntity<>(errorDetails, HttpStatus.NOT_FOUND);
 	}
+	
+	@ExceptionHandler(DietNotFoundException.class)
+	  public ResponseEntity<?>DietNotFoundException
+	  (DietNotFoundException ex, WebRequest request)
+		{
+			ErrorDetails errorDetails = new ErrorDetails(LocalDateTime.now(), ex.getMessage(),
+					request.getDescription(false));
+			return new ResponseEntity<>(errorDetails, HttpStatus.NOT_FOUND);
+		}
 
 }
