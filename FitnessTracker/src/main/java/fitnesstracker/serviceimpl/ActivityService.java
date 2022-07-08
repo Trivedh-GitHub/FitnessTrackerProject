@@ -1,4 +1,4 @@
-package fitnesstracker.service;
+package fitnesstracker.serviceimpl;
 
 import java.util.List;
 
@@ -9,11 +9,12 @@ import fitnesstracker.advices.ActivityNotFoundException;
 import fitnesstracker.dto.ActivityDto;
 import fitnesstracker.entity.Activity;
 import fitnesstracker.repository.ActivityRepository;
+import fitnesstracker.service.IActivityService;
 import fitnesstracker.utils.Continue;
 import fitnesstracker.utils.Converter;
 
     @Service
-    public class ActivityService {
+    public class ActivityService implements IActivityService {
 
 	@Autowired
 	ActivityRepository activityrepo;
