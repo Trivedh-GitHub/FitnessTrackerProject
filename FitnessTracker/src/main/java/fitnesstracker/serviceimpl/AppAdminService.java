@@ -8,9 +8,10 @@ import org.springframework.stereotype.Service;
 import fitnesstracker.advices.AdminNotFoundException;
 import fitnesstracker.entity.AppUser;
 import fitnesstracker.repository.AppUserRepository;
+import fitnesstracker.service.IAppAdminService;
 
 @Service
-public class AppAdminService {
+public class AppAdminService implements IAppAdminService {
 	    @Autowired
 		AppUserRepository userrepo;
 
