@@ -70,13 +70,13 @@ public class AppUser{
 	public void setGender(String gender) {
 		this.gender = gender;
 	}
-	public long getHeight() {
+	public int getHeight() {
 		return height;
 	}
 	public void setHeight(int height) {
 		this.height = height;
 	}
-	public long getWeight() {
+	public int getWeight() {
 		return weight;
 	}
 	public void setWeight(int weight) {
