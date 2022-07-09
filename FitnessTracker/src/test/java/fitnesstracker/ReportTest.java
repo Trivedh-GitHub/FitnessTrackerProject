@@ -16,41 +16,48 @@ import fitnesstracker.advices.ReportNotFoundException;
 import fitnesstracker.entity.Report;
 import fitnesstracker.repository.ReportRepository;
 import fitnesstracker.serviceimpl.ReportService;
-@SpringBootTest
-class ReportTest {
-	@Autowired
-    ReportService reportservice;
-    
-    @MockBean
-    ReportRepository repo;
-    Report a1=null;
-    Report a2=null;
 
-    @BeforeEach
-    public void testBeforeEach() {
-        a1=new Report();
-        a1.setReportId(1);
-        a1.setReportName("Internal");
-        
-        
-        a2=new Report();
-        a2.setReportId(2);
-        a2.setReportName("Internal");
-    }
-        
-        
-        @Test
-        void testGetReport() throws ReportNotFoundException {
-     
-            
-            List<Report> ReportList = new ArrayList<>();
-            ReportList.add(a1);
-            ReportList.add(a2);
 
-            Mockito.when(repo.findAll()).thenReturn(ReportList);
-     
-            assertNotNull(reportservice.getUsers());
-        }
-        
-}
-	
+	@SpringBootTest
+	class ReportTest {
+		@Autowired
+	    ReportService reportservice;
+	    
+	    @MockBean
+	    ReportRepository repo;
+	    Report a1=null;
+	    Report a2=null;
+
+	 
+
+	    @BeforeEach
+	    public void testBeforeEach() {
+	        a1=new Report();
+	        a1.setReportId(1);
+	        a1.setReportName("Internal");
+	        
+	        
+	        a2=new Report();
+	        a2.setReportId(2);
+	        a2.setReportName("Internal");
+	    }
+	        
+	        
+	        @Test
+	        void testGetReport() throws ReportNotFoundException {
+	     
+	            
+	            List<Report> ReportList = new ArrayList<>();
+	            ReportList.add(a1);
+	            ReportList.add(a2);
+
+	 
+
+	            Mockito.when(repo.findAll()).thenReturn(ReportList);
+	     
+	            assertNotNull(reportservice.getUsers());
+	        }
+	        
+	}
+
+

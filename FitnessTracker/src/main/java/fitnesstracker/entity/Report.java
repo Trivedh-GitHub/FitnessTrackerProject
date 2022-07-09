@@ -24,9 +24,6 @@ public class Report {
 	public String getReportName() {
 		return reportName;
 	}
-	public void setReportName(String reportName) {
-		this.reportName = reportName;
-	} 
 	public int getReportId() {
 		return reportId;
 	}
@@ -45,6 +42,9 @@ public class Report {
 	public void setDiet(Diet diet) {
 		this.diet = diet;
 	}
+	public void setReportName(String reportName) {
+		this.reportName = reportName;
+	} 
 	@Override
 	public String toString() {
 		return "Report [reportId=" + reportId + ", reportName=" + reportName + "]";
