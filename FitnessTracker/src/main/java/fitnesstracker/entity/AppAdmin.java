@@ -26,11 +26,7 @@ public class AppAdmin {
     @Email
 	private String email;
 	private long phonenumber;
-	/*
-	 * @OneToOne(cascade=CascadeType.ALL,mappedBy="appuser")
-	 * 
-	 * @JoinColumn
-	 */
+	
 	
 	public String getName() {
 		return name;
