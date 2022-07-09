@@ -12,9 +12,10 @@ import fitnesstracker.entity.Diet;
 import fitnesstracker.repository.ActivityRepository;
 import fitnesstracker.repository.AppUserRepository;
 import fitnesstracker.repository.DietRepository;
+import fitnesstracker.service.IReportService;
 
 @Service
-public class ReportService {
+public class ReportService implements IReportService { 
 	@Autowired
     AppUserRepository userrepo;
 	@Autowired
