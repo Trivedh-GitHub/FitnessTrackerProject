@@ -33,6 +33,8 @@ public class AppAdminService implements IAppAdminService {
 			if (a == null) {
 				throw new AdminNotFoundException("admin does not exist");
 			} else {
+				
+				
 				userrepo.save(a);
 				return "put";
 			}
