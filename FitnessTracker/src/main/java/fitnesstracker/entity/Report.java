@@ -13,7 +13,7 @@ public class Report {
 	@NotNull
 	private int reportId;
 	@NotBlank(message = "name is mandatory")
-	private int reportName;
+	private String reportName;
 	@OneToOne 
 	@JoinColumn(name ="activity_name")
 	private Activity activity;
@@ -21,10 +21,28 @@ public class Report {
 	@JoinColumn(name = "diet_name")
 	private Diet diet;
 	
-	public int getReportName() {
+	public String getReportName() {
 		return reportName;
 	}
-	public void setReportName(int reportName) {
+	public int getReportId() {
+		return reportId;
+	}
+	public void setReportId(int reportId) {
+		this.reportId = reportId;
+	}
+	public Activity getActivity() {
+		return activity;
+	}
+	public void setActivity(Activity activity) {
+		this.activity = activity;
+	}
+	public Diet getDiet() {
+		return diet;
+	}
+	public void setDiet(Diet diet) {
+		this.diet = diet;
+	}
+	public void setReportName(String reportName) {
 		this.reportName = reportName;
 	} 
 	@Override
