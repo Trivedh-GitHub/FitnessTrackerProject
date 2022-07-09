@@ -13,6 +13,12 @@ public class AppAdmin {
 	@Id
 	@NotNull
 	private int Adminid;
+	public int getAdminid() {
+		return Adminid;
+	}
+	public void setAdminid(int adminid) {
+		Adminid = adminid;
+	}
 	@NotBlank(message = "name is mandatory")
 	private String name;
 	private String password;

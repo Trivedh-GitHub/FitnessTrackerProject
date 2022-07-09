@@ -8,7 +8,7 @@
   
   import fitnesstracker.entity.AppUser;
   
-  @Repository 
+  
   public interface AppUserRepository extends JpaRepository<AppUser,Integer> 
   {
   

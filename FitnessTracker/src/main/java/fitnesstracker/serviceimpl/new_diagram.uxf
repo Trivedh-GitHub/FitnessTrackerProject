@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.0.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>10</x>
+      <y>10</y>
+      <w>410</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes>fitnesstracker.serviceimpl::ActivityService
+--
+~activityrepo: ActivityRepository
+--
++getActivities(): List&lt;ActivityDto&gt;
++addActivity(ActivityDto activity): ActivityDto
++updateActivity(ActivityDto activity): ActivityDto
++deleteActivity(ActivityDto activity): String
++getActivityByActivityName(String activityName): Activity
++getActivityBydurationInMinutes(int durationinminutes): Activity
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>430</x>
+      <y>10</y>
+      <w>280</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes>fitnesstracker.serviceimpl::AppUserService
+--
+~userrepo: AppUserRepository
+--
++getUsers(): List&lt;AppUserDto&gt;
++addUser(AppUserDto a): String
++updateUser(AppUserDto a): String
++deleteUser(AppUserDto a): String
++getByUserId(int userId): AppUserDto
++getUserByemail(String email): AppUserDto
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>10</x>
+      <y>200</y>
+      <w>290</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes>fitnesstracker.serviceimpl::DietService
+--
+~dietrepo: DietRepository
+--
++getDiets(): List&lt;Diet&gt;
++addDiet(Diet d): Diet
++updateDiet(Diet a): Diet
++updateDiets(Diet diet): Diet
++deleteDiet(Diet diet): String
++getDietByDietName(String dietName): Diet
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>310</x>
+      <y>200</y>
+      <w>270</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>fitnesstracker.serviceimpl::ReportService
+--
+~userrepo: AppUserRepository
+~activityrepo: ActivityRepository
+~dietrepo: DietRepository
+--
++getUsers(): List&lt;AppUser&gt;
++getActivities(): List&lt;Activity&gt;
++getDiets(): List&lt;Diet&gt;
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>590</x>
+      <y>200</y>
+      <w>290</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>fitnesstracker.serviceimpl::AppAdminService
+--
+~userrepo: AppUserRepository
+--
++getUsers(): List&lt;AppUser&gt;
++addUser(AppUser a): String
++updateUser(AppUser a): String
++deleteUser(AppUser a): String
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
