@@ -4116,3 +4116,47 @@ Action:
 
 Identify and stop the process that's listening on port 8090 or configure this application to listen on another port.
 
+09-Jul-2022 18:01:45 INFO - HV000001: Hibernate Validator 6.2.3.Final
+09-Jul-2022 18:01:45 INFO - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+09-Jul-2022 18:01:45 INFO - Finished Spring Data repository scanning in 34 ms. Found 5 JPA repository interfaces.
+09-Jul-2022 18:01:46 INFO - Tomcat initialized with port(s): 8090 (http)
+09-Jul-2022 18:01:46 INFO - Initializing ProtocolHandler ["http-nio-8090"]
+09-Jul-2022 18:01:46 INFO - Starting service [Tomcat]
+09-Jul-2022 18:01:46 INFO - Starting Servlet engine: [Apache Tomcat/9.0.64]
+09-Jul-2022 18:01:46 INFO - Initializing Spring embedded WebApplicationContext
+09-Jul-2022 18:01:46 INFO - Root WebApplicationContext: initialization completed in 1090 ms
+09-Jul-2022 18:01:46 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+09-Jul-2022 18:01:46 INFO - HHH000412: Hibernate ORM core version 5.6.9.Final
+09-Jul-2022 18:01:46 INFO - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+09-Jul-2022 18:01:46 INFO - HikariPool-1 - Starting...
+09-Jul-2022 18:01:46 INFO - HikariPool-1 - Start completed.
+09-Jul-2022 18:01:46 INFO - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+09-Jul-2022 18:01:47 INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+09-Jul-2022 18:01:47 INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+09-Jul-2022 18:01:47 WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+09-Jul-2022 18:01:48 INFO - Starting ProtocolHandler ["http-nio-8090"]
+09-Jul-2022 18:01:48 WARN - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8090 is already in use
+09-Jul-2022 18:01:48 INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+09-Jul-2022 18:01:48 INFO - HikariPool-1 - Shutdown initiated...
+09-Jul-2022 18:01:48 INFO - HikariPool-1 - Shutdown completed.
+09-Jul-2022 18:01:48 INFO - Pausing ProtocolHandler ["http-nio-8090"]
+09-Jul-2022 18:01:48 INFO - Stopping service [Tomcat]
+09-Jul-2022 18:01:48 INFO - Stopping ProtocolHandler ["http-nio-8090"]
+09-Jul-2022 18:01:48 INFO - Destroying ProtocolHandler ["http-nio-8090"]
+09-Jul-2022 18:01:48 INFO - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+09-Jul-2022 18:01:48 ERROR - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8090 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8090 or configure this application to listen on another port.
+
