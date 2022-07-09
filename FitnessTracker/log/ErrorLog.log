@@ -501,3 +501,7 @@ Caused by: org.hibernate.HibernateException: Access to DialectResolutionInfo can
 08-Jul-2022 19:46:35 INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
 08-Jul-2022 19:46:35 INFO - Initializing Servlet 'dispatcherServlet'
 08-Jul-2022 19:46:35 INFO - Completed initialization in 1 ms
+08-Jul-2022 20:39:32 INFO - Application shutdown requested.
+08-Jul-2022 20:39:32 INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+08-Jul-2022 20:39:32 INFO - HikariPool-1 - Shutdown initiated...
+08-Jul-2022 20:39:32 INFO - HikariPool-1 - Shutdown completed.
