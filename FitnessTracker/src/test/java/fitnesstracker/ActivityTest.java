@@ -61,6 +61,7 @@ class ActivityTest {
 		
 		assertNotNull(activityservice.getActivities());
 	}
+	
 	@Test
     void testUpdateActivity() throws Throwable {
 
