@@ -8,7 +8,7 @@
   
   import fitnesstracker.entity.AppUser;
   
-  @Repository 
+  
   public interface AppUserRepository extends JpaRepository<AppUser,Integer> 
   {
   
@@ -17,8 +17,6 @@
   
   @Query("Select user from AppUser user where email=?1") 
   public AppUser findByUserEmail(String email);
-  
-  
   }
   
   
