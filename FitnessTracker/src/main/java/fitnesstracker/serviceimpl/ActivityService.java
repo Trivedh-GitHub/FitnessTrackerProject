@@ -8,6 +8,7 @@ import org.springframework.stereotype.Service;
 import fitnesstracker.advices.ActivityNotFoundException;
 import fitnesstracker.dto.ActivityDto;
 import fitnesstracker.entity.Activity;
+import fitnesstracker.entity.AppUser;
 import fitnesstracker.repository.ActivityRepository;
 import fitnesstracker.service.IActivityService;
 import fitnesstracker.utils.Continue;
@@ -43,8 +44,16 @@ import fitnesstracker.utils.Converter;
 			throw new ActivityNotFoundException("activity does not exist");
 		}
 		else {
-		activityrepo.save(Continue.continueToEntity(activity));
-		return activity;
+			Activity ct = Continue.continueToEntity(activity);
+			int no = ct.getActivityNo();
+			Activity use = activityrepo.findById(no).orElseThrow();
+			use.setActivityNo(ct.getActivityNo());
+			use.setActivityName(ct.getActivityName());
+			use.setDurationInMinutes(ct.getDurationInMinutes());
+			use.setFrequency(ct.getFrequency());
+			activityrepo.save(Continue.continueToEntity(activity));
+			
+			return activity;
 		}
 
 	}
