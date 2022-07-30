@@ -3,6 +3,9 @@ package fitnesstracker.controller;
 
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -17,50 +20,61 @@ import fitnesstracker.dto.AppUserDto;
 import fitnesstracker.entity.AppUser;
 import fitnesstracker.service.IAppUserService;
 import fitnesstracker.serviceimpl.AppUserService;
-
+@CrossOrigin(origins = "*")
 @RestController
 
-@RequestMapping("user")
+@RequestMapping("/user")
 public class AppUserController {
 
 	@Autowired
-	IAppUserService userservice;
+    AppUserService appuserservice;
 
-	@GetMapping(path = "getuser")
-	public List<AppUserDto> getuser() {
-		List<AppUserDto> lc = userservice.getUsers();
-		return lc;
-	}
+ 
 
-	@PostMapping("adduser")
-	public String addUser(@RequestBody AppUserDto a) throws Throwable {
-		userservice.addUser(a);
-		return "post";
-	}
+    @GetMapping(path = "getuser")
+    public List<AppUserDto> getUsers() throws UserNotFoundException {
+        List<AppUserDto> lc = appuserservice.getUsers();
+        return lc;
+    }
 
-	@PutMapping("updateUser")
-	public String updateUser(@RequestBody AppUserDto a) throws Throwable {
-		userservice.updateUser(a);
-		return "put";
+ 
 
-	}
+    @PostMapping("/adduser")
+    public AppUserDto addAppUser(@RequestBody AppUserDto appuser) throws Throwable {
+         return  appuserservice.addUser(appuser);
+        
+    }
 
-	@DeleteMapping("deleteUser")
-	public String deleteUser(@RequestBody AppUserDto a) throws Throwable {
-		userservice.deleteUser(a);
-		return "deleted";
-	}
+ 
 
-	@GetMapping("getuserbyid/{userId}")
+    @PutMapping("/updateuser")
+    public AppUserDto updateuser(@RequestBody AppUserDto appuser) throws Throwable {
+        AppUserDto a1=appuserservice.updateUser(appuser);
+        return a1;
+    }
+    @DeleteMapping("deleteuser/{id}")
+    public ResponseEntity<String> deleteUser(@PathVariable("id")int id ) throws Exception
+    {
+        appuserservice.deleteUser(id);
+        
+        ResponseEntity re=new ResponseEntity<String>("Deleted",HttpStatus.OK);
+        return re;
+    }
+
+ 
+
+
+    @GetMapping("getuserbyemail/{email}")
+    public AppUserDto getUseryByEmail(@PathVariable String userEmail) throws Throwable {
+        AppUserDto appuser= appuserservice.getUserByemail(userEmail);
+        return appuser;
+    }
+
+ 
+
+    @GetMapping("getuserbyid/{userId}")
 	public AppUserDto getUserByUserId(@PathVariable int userId) throws Throwable {
-		AppUserDto a4 = userservice.getByUserId(userId);
+		AppUserDto a4 = appuserservice.getByUserId(userId);
 		return a4;
 	}
-
-	@GetMapping("getuserbyemail/{email}")
-	public AppUserDto getUserByUseremail(@PathVariable String email) throws Throwable {
-		AppUserDto a5 = userservice.getUserByemail(email);
-		return a5;
-	}
-
-}
+ }

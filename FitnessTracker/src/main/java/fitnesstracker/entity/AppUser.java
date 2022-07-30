@@ -2,6 +2,7 @@ package fitnesstracker.entity;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
@@ -15,7 +16,7 @@ import javax.validation.constraints.Size;
 /* @Table(name="appuser") */
 public class AppUser{
 	@Id
-	@GeneratedValue
+	@GeneratedValue(strategy=GenerationType.AUTO)
 	@NotNull
 	private int userId;
 	@NotBlank(message = "name is mandatory")
@@ -30,8 +31,6 @@ public class AppUser{
 	private int weight;
 	private String address;
     @NotEmpty
-	@Size(min = 10, max = 10)
-    @Pattern(regexp = "[0-9]")
 	private long phNo;
 	public int getUserId() {
 		return userId;

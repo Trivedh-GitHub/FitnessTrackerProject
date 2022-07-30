@@ -39,19 +39,19 @@ public class AppAdminController {
 			return "post";
 		}
 
-		@PutMapping("updateadminUser")
-		public String updateUser(@RequestBody AppUser a) throws Throwable {
-			userservice.updateUser(Converter.convertToDto(a));
-			return "put";
+		@PutMapping("updateadminUser/{id}/{weight}")
+		public AppUserDto updateUserWeight(@PathVariable("id")int id,@PathVariable("weight")int weight) throws Throwable {
+			return userservice.updateUser(id,weight);
+			
 
 		}
-
-		@DeleteMapping("deleteUser")
-		public String deleteUser(@RequestBody AppUser a) throws Throwable {
-			userservice.deleteUser(Converter.convertToDto(a));
-			return "deleted";
-		}
-
+		/*
+		 * 
+		 * @DeleteMapping("deleteUser") public String deleteUser(@RequestBody AppUser a)
+		 * throws Throwable { userservice.deleteUser(Converter.convertToDto(a)); return
+		 * "deleted"; }
+		 * 
+		 */
 		
 	}
 
